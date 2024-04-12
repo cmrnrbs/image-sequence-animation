@@ -37,8 +37,15 @@
   },
   "keywords": [
     "react-native",
-    "ios",
-    "android"
+    "native",
+    "imagesequence",
+    "animation",
+    "image",
+    "sequence",
+    "frames",
+    "frame-animation",
+    "animation",
+    "animationImages"
   ],
   "repository": {
     "type": "git",
