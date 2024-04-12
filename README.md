@@ -20,18 +20,21 @@ const images = [
   require('./assets/example.4png'),
 ];
 
-<ImageSequenceAnimationView images={images} />;
+<ImageSequenceAnimationView
+  images={images}
+  style={{ width: 100, height: 100 }}
+/>;
 ```
 
 ## Props
 
-|   props    |    types    | defaultValues | isRequired |
-| :--------: | :---------: | :-----------: | :--------: |
-|   images   |   `Array`   |               |   `true`   |
-|    loop    |   `bool`    |    `true`     |  `false`   |
-|  reverse   |   `bool`    |    `false`    |  `false`   |
-| isFirstRun |   `bool`    |    `false`    |  `false`   |
-|   style    | `ViewStyle` |               |   `true`   |
+|    props     |    types    | defaultValues | isRequired |
+| :----------: | :---------: | :-----------: | :--------: |
+|    images    |   `Array`   |               |   `true`   |
+|     loop     |   `bool`    |    `true`     |  `false`   |
+|   reverse    |   `bool`    |    `false`    |  `false`   |
+| isFirstStart |   `bool`    |    `false`    |  `false`   |
+|    style     | `ViewStyle` |               |   `true`   |
 
 ## Contributing
 
