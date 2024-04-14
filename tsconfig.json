@@ -4,6 +4,7 @@
     "paths": {
       "image-sequence-animation": ["./src/index"]
     },
+    "allowJs": false,
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,
     "esModuleInterop": true,
