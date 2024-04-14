@@ -50,6 +50,12 @@ export const images = [
 |    reverse     |   `bool`    |    `false`    |  `false`   |
 |  isFirstStart  |   `bool`    |    `false`    |  `false`   |
 
+## Examples
+
+|                                                          Loop Animation                                                          |                                                      Reverse Animation With State style                                                      |                                                     First Start Animation with Reverse                                                      |
+| :------------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------: |
+| ![image-sequence-anination](https://raw.githubusercontent.com/cmrnrbs/image-sequence-animation/master/screenshots/loop_anim.gif) | ![image-sequence-anination](https://raw.githubusercontent.com/cmrnrbs/image-sequence-animation/master/screenshots/firststart_false_anim.gif) | ![image-sequence-anination](https://raw.githubusercontent.com/cmrnrbs/image-sequence-animation/master/screenshots/firststart_true_anim.gif) |
+
 ## Contributing
 
 See the [contributing guide](CONTRIBUTING.md) to learn how to contribute to the repository and the development workflow.
