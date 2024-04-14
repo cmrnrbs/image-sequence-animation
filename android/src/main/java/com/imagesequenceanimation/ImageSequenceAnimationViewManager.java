@@ -37,6 +37,11 @@ public class ImageSequenceAnimationViewManager extends SimpleViewManager<RCTImag
       view.setImages(uris);
     }
 
+  @ReactProp(name = "framesPerSecond")
+  public void setFramesPerSecond(final RCTImageSequenceView view, Integer framesPerSecond) {
+        view.setFramesPerSecond(framesPerSecond);
+  }
+
   @ReactProp(name = "loop")
   public void setLoop(final RCTImageSequenceAnimationView view, Boolean loop) {
       view.setLoop(loop);
