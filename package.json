@@ -1,10 +1,10 @@
 {
   "name": "image-sequence-animation",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "This package developed for image animations",
   "main": "lib/commonjs/index.js",
   "module": "lib/module/index.js",
-  "types": "lib\\typescript\\src\\index.d.ts",
+  "types": "lib/typescript/src/index.d.ts",
   "react-native": "src\\index.tsx",
   "source": "src/index",
   "files": [
@@ -58,7 +58,7 @@
   },
   "homepage": "https://github.com/cmrnrbs/image-sequence-animation#readme",
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
+    "registry": "https://r.privjs.com"
   },
   "devDependencies": {
     "@commitlint/config-conventional": "^17.0.2",
@@ -76,7 +76,7 @@
     "prettier": "^3.0.3",
     "react": "18.2.0",
     "react-native": "0.73.6",
-    "react-native-builder-bob": "^0.23.2",
+    "react-native-builder-bob": "^0.30.3",
     "release-it": "^15.0.0",
     "turbo": "^1.10.7",
     "typescript": "^5.2.2"
